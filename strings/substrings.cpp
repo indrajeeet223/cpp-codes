@@ -6,5 +6,6 @@ int main()
 {
     string v="aabcdefghi";
     // substring(index,len or end );
-    cout<<v.substr(1);
+    cout<<v.substr(0,2);
+    cout<<endl<<v.substr(2);
 }
