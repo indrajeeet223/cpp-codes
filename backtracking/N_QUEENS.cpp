@@ -59,7 +59,7 @@ vector<vector<string>> solveNQueens(int n) {
 }
 
 int main() {
-    solveNQueens(6);
+    solveNQueens(7);
     
     return 0;
 }
