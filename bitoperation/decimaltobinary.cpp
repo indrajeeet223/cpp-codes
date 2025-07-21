@@ -4,7 +4,7 @@
 #include<string>
 // (imp)                                                x<<1=x*2   x>>1=x/2    x<<2=x*(2**2)  x>>2=x/(2**2)
 using namespace std;
-string binary_to_decimal(int num)
+string decimal_to_birary(int num)
 {
     string s="";
         // we want to return a string of binary number .
@@ -26,8 +26,8 @@ string binary_to_decimal(int num)
 int main()
 
 {
-int n=12;
-string ans=binary_to_decimal(n);
+int n=100;
+string ans=decimal_to_birary(n);
 cout<<ans;
 }
 
